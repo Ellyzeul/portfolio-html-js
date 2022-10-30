@@ -50,9 +50,3 @@ document.querySelectorAll(".content-chooser").forEach(button => {
     document.querySelector(`#${contentSection}`).parentElement.className = "content-enabled"
   })
 })
-
-document.querySelector("#show-more").addEventListener('click', (event) => {
-  event.target.style.display = "none"
-
-  document.querySelector("#user-info").style.cssText = "display: flex !important"
-})
